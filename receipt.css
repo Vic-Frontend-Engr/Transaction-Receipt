@@ -1,0 +1,130 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f7f8fa;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background: #fff;
+  border-radius: 20px;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invoice-card h2 {
+  font-size: 16px;
+  background: #f1f3f6;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.amounts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.sub-amt {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.participants li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.participants img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.paid { color: #22c55e; margin-left: auto; }
+.unpaid { color: #f97316; margin-left: auto; }
+
+.status-bar {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.pay-status {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #d1d5db;
+}
+
+.dot.done { background: #22c55e; }
+.dot.current { background: #000; }
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.reminder-btn {
+  background: #e5e7eb;
+}
+
+.reminder-btn:hover, .invoice-btn:hover {
+  background-color: #000;
+  color: white;
+}
+.invoice-btn {
+  background: #e5e7eb;
+}
+
+.pay-btn {
+  width: 100%;
+  background: #111827;
+  color: #fff;
+  font-weight: 600;
+}
+
+.payment-method p {
+  text-align: center;
+}
+
+#share, #back {
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+}
